@@ -9,9 +9,6 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "experiments": {
-      "baseUrl": "/Livoa"
-    },
     "web": {
       "bundler": "metro",
       "output": "single"
