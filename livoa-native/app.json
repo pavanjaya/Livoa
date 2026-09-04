@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Livoa",
+    "slug": "livoa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "livoa",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "experiments": {
+      "baseUrl": "/Livoa"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.livoa.app"
+    },
+    "android": {
+      "package": "com.livoa.app"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Livoa uses your photos so you can set a profile picture."
+        }
+      ],
+      "@react-native-community/datetimepicker",
+      "expo-font",
+      "expo-asset"
+    ]
+  }
+}

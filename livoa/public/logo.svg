@@ -1,0 +1,13 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="livoaOrb" x1="18" y1="20" x2="98" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b7a4e6" />
+      <stop offset="0.55" stop-color="#d7a9df" />
+      <stop offset="1" stop-color="#f6b3ce" />
+    </linearGradient>
+  </defs>
+  <circle cx="57" cy="63" r="40" fill="url(#livoaOrb)" />
+  <circle cx="92" cy="26" r="9" fill="#f7a6c6" />
+  <path d="M55 31 C 47 34, 45 47, 47 67 C 48.5 81, 61 85, 72 73"
+        stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+</svg>

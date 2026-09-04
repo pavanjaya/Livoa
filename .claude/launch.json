@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "livoa",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "livoa", "run", "dev"],
+      "port": 5180
+    }
+  ]
+}
