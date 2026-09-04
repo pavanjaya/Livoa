@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "cd livoa-native && npm install",
+  "buildCommand": "cd livoa-native && npx expo export -p web",
+  "outputDirectory": "livoa-native/dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}
