@@ -9,7 +9,7 @@ const defaultState = {
   version: 1,
   seeded: false,
   onboarded: false,
-  profile: { name: 'friend', avatar: '🌙', picture: null },
+  profile: { name: 'friend', avatar: '🌕', picture: null },
   theme: { preset: 'cloud', custom: { background: 'Light', accent: 'purple', style: 'Soft', mood: 'Calm' }, font: 'nunito', picture: true, wallpaper: null },
   widgets: {
     affirmation: true, sleep: true, water: true, screen: true,
@@ -53,12 +53,12 @@ function sampleData(state) {
     logs,
     people: [
       {
-        id: uid(), name: 'Aarav', emoji: '🧑🏽',
+        id: uid(), name: 'Shanaya', emoji: '🧑🏽',
         birthday: '', lastHangout: addDays(t, -18), lastCall: addDays(t, -4),
         memories: [{ id: uid(), text: 'Late night drive to the coast, terrible playlist', date: addDays(t, -18) }],
       },
       {
-        id: uid(), name: 'Mia', emoji: '👩🏻',
+        id: uid(), name: 'Rutika', emoji: '👩🏻',
         birthday: bdaySoon(), lastHangout: addDays(t, -5), lastCall: addDays(t, -1),
         memories: [],
       },

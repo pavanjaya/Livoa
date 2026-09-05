@@ -14,7 +14,7 @@ export default function Onboarding() {
   const [sample, setSample] = useState(true)
 
   const start = () => {
-    dispatch({ type: 'setProfile', patch: { name: name.trim() || 'friend', avatar: '🤍' } })
+    dispatch({ type: 'setProfile', patch: { name: name.trim() || 'friend', avatar: '🌕' } })
     dispatch({ type: 'setTheme', patch: { preset, wallpaper: null } })
     if (sample) dispatch({ type: 'loadSample' })
     dispatch({ type: 'onboarded' })

@@ -9,7 +9,7 @@ import ThemeCard from '../ui/ThemeCard.js'
 import Wallpaper from '../ui/Wallpaper.js'
 import { Screen, Card, Btn, Chip, T, H1, H2, Row, Field, Input, Avatar } from '../ui/kit.js'
 
-const AVATARS = ['💗', '🪬', '🌕', '🧿', '🎀', '🫶🏻', '👻', '⭐️', '🤍']
+const AVATARS = ['🌕', '👻', '😎', '☠️', '🎀', '🫶🏻', '🪬', '🤥', '😈', '🧚🏻‍♀️']
 
 const WIDGETS = {
   sleep: 'Sleep', water: 'Water', screen: 'Screen',
@@ -33,7 +33,7 @@ export default function Personalize() {
   const { state, dispatch } = useStore()
   const t = useTheme()
   const { width } = useWindowDimensions()
-  const wpW = Math.floor((width - 16 * 2 - 16 * 2 - 10) / 2)
+  const wpW = Math.floor((width - 16 * 2 - 16 * 2 - 10 - 6) / 2)
   const { theme } = state
   const custom = theme.custom || {}
 
@@ -117,7 +117,7 @@ export default function Personalize() {
           Pick Livoa images
         </T>
         <T w="r" size={12} muted>Sets a full-screen wallpaper as your whole theme.</T>
-        <View style={{ flexDirection: 'row', gap: 10 }}>
+        <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 10 }}>
           {WALLPAPER_ORDER.map((id) => {
             const on = theme.wallpaper === id
             return (

@@ -226,8 +226,32 @@ export const WALLPAPERS = {
     text: '#f4e9ec', muted: '#a98d94', border: '#2c2124',
     accent: '#d98a9a', accentContrast: '#1a1012', accentSoft: 'rgba(217,138,154,0.16)', track: '#2c2124',
   },
+  sweetheart: {
+    name: 'Sweetheart', dark: false,
+    bg: '#faf3ea', surface: '#fffdf9', surface2: '#f7ece9',
+    text: '#5c3a42', muted: '#9c7a80', border: '#f0dde0',
+    accent: '#d97a95', accentContrast: '#ffffff', accentSoft: 'rgba(217,122,149,0.16)', track: '#f3e0e4',
+  },
+  pages: {
+    name: 'Pages', dark: false,
+    bg: '#e7dfcd', surface: '#f6f1e4', surface2: '#ece3ce',
+    text: '#2e2a22', muted: '#736a56', border: '#ddd2b8',
+    accent: '#8a6a3f', accentContrast: '#ffffff', accentSoft: 'rgba(138,106,63,0.16)', track: '#ddd2b8',
+  },
+  gingham: {
+    name: 'Gingham', dark: false,
+    bg: '#f3e6e0', surface: '#fffaf7', surface2: '#f6e2e6',
+    text: '#4a2530', muted: '#8a5d68', border: '#eccdd4',
+    accent: '#a9556f', accentContrast: '#ffffff', accentSoft: 'rgba(169,85,111,0.16)', track: '#eccdd4',
+  },
+  crimson: {
+    name: 'Crimson', dark: true,
+    bg: '#1c0505', surface: '#2a0c0c', surface2: '#360f0f',
+    text: '#f5e3e0', muted: '#c99a94', border: '#4a1414',
+    accent: '#e0574f', accentContrast: '#1c0505', accentSoft: 'rgba(224,87,79,0.2)', track: '#4a1414',
+  },
 }
-export const WALLPAPER_ORDER = ['shells', 'bows']
+export const WALLPAPER_ORDER = ['bows', 'sweetheart', 'pages', 'gingham', 'crimson']
 
 export function resolveTheme(theme) {
   if (theme?.wallpaper && WALLPAPERS[theme.wallpaper]) {
